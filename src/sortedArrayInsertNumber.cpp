@@ -12,7 +12,7 @@ NOTES: Use realloc to allocate memory.
 */
 
 #include <stdio.h>
-#include <malloc.h>
+#include <malloc.h> 
 void update(int *Arr, int len, int j, int num);
 int * sortedArrayInsertNumber(int *Arr, int len, int num)
 {

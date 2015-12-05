@@ -28,7 +28,7 @@ namespace spec
 
 		TEST_METHOD(firstAndLastValuesAreSwapped)
 		{
-			int Arr[5] = { 50, 20, 30, 40, 10 };
+			int Arr[5] = { 50, 20, 30, 40 , 10 };
 			sortedArrayPositionsChange(Arr, 5);
 			Assert::AreEqual(10, Arr[0], L"Value at index 0 should be 10", LINE_INFO());
 			Assert::AreEqual(50, Arr[4], L"Value at index 4 should be 50", LINE_INFO());
